@@ -7,11 +7,15 @@ Sincronización de Eventos: Localización precisa del pico R para control de per
 
 Contenido del Repositorio
 EGC.py: Simulación animada de la señal con detección de picos en tiempo real.
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/33c07c69-cd7e-4447-bb46-ddddaa011322" />
+
 EXPORTEGC.py: Script unificado para recorte, normalización y exportación de datos.
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/24f57144-f25f-4b2d-bb1a-df8597b897d7" />
 
 GRAPHICROM.py: Herramienta de visualización para verificar la continuidad y el rango de la señal antes de grabarla.
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/219b83ed-53ed-451a-b63b-4ace56966190" />
 
 ecg_rom_final.txt: Arreglo de 900 muestras listo para el hardware.
@@ -26,3 +30,7 @@ Frecuencia de muestreo: 1000 Hz.
 Resolución: 8 bits (DAC R-2R).
 
 Punto de sincronía (Beep): Muestra 73
+
+Los datos utilizados en este proyecto provienen de la **PTB Diagnostic ECG Database** alojada en PhysioNet.
+
+* **Base de Datos:** [PTB Diagnostic ECG Database v1.0.0](https://physionet.org/content/ptbdb/1.0.0/)
